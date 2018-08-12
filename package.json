@@ -1,0 +1,23 @@
+{
+  "name": "hitBTCChart",
+  "author": "ducpm",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-ws": "^4.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.4",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "socket.io-client": "^2.1.1",
+    "ws": "^6.0.0"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "heroku-postbuild": "npm install && npm install react-scripts -g && npm run build"
+  }
+}
